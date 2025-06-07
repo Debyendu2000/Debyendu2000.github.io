@@ -1,95 +1,36 @@
-/* Global Styles */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  line-height: 1.6;
+  background-color: #f5f7fa; /* Light gray-blue background */
   color: #333;
 }
 
-/* Header */
 header {
-  background-color: #2c3e50;
+  background: #2c3e50; /* Dark header */
   color: white;
-  padding: 25px 0;
+  padding: 20px 0;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.8em;
-}
-
-header p {
-  font-size: 1.2em;
-  margin: 10px 0;
 }
 
 nav a {
   color: white;
-  margin: 0 12px;
+  margin: 0 15px;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1em;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Section Styling */
 section {
-  padding: 25px;
-  margin: 25px auto;
-  max-width: 900px;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  padding: 20px;
+  margin: 20px;
+  background: #ffffff; /* Single color for all sections */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for effect */
 }
 
-/* Unique Background Colors per Section */
-#home {
-  background-color: #e3f2fd; /* Light Blue */
-}
-
-#about {
-  background-color: #fce4ec; /* Light Pink */
-}
-
-#education {
-  background-color: #fff9c4; /* Light Yellow */
-}
-
-#projects {
-  background-color: #e8f5e9; /* Light Green */
-}
-
-#experience {
-  background-color: #f3e5f5; /* Light Purple */
-}
-
-#degrees {
-  background-color: #fbe9e7; /* Light Coral */
-}
-
-#contact {
-  background-color: #ede7f6; /* Light Indigo */
-}
-
-section h2 {
-  color: #2c3e50;
-  border-bottom: 2px solid #2c3e50;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-}
-
-/* Footer */
 footer {
   text-align: center;
-  padding: 15px;
-  background: #ccc;
+  padding: 10px;
+  background: #ddd;
   color: #333;
-  margin-top: 30px;
-  font-size: 0.9em;
 }
