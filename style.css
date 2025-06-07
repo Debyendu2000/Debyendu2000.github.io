@@ -3,10 +3,11 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #e8f0fe; /* Light blue background */
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #333;
 }
- 
+
 header {
   background: #2c3e50;
   color: white;
@@ -55,10 +56,10 @@ nav a:hover {
 }
 
 section {
+  background: #fdf5e6; /* light beige for all sections */
   padding: 20px;
   margin: 10px auto;
   max-width: 900px;
-  background: #ffffff; /* same color for all sections */
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
