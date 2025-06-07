@@ -3,12 +3,12 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #f5f7fa; /* Light gray-blue background */
+  background-color: #e0f7fa; /* light cyan background */
   color: #333;
 }
 
 header {
-  background: #2c3e50; /* Dark header */
+  background: #006064; /* dark teal */
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -22,15 +22,15 @@ nav a {
 
 section {
   padding: 20px;
-  margin: 20px;
-  background: #ffffff; /* Single color for all sections */
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for effect */
+  margin: 20px auto;
+  max-width: 900px;
+  background: #ffffff; /* SAME color for all sections: white */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background: #ddd;
-  color: #333;
+  background: #b2ebf2; /* lighter cyan for footer */
 }
