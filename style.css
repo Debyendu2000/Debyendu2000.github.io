@@ -16,18 +16,19 @@ header {
 
 .header-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 0 20px;
 }
 
 .profile-pic {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
+  max-width: 200px;
+  height: auto;
+  border-radius: 12px;
   margin-right: 20px;
   border: 3px solid white;
+  background-color: white;
 }
 
 .header-text h1 {
@@ -56,7 +57,7 @@ nav a:hover {
 }
 
 section {
-  background: #fdf5e6; /* light beige for all sections */
+  background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   margin: 10px auto;
   max-width: 900px;
